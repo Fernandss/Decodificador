@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a795abfc53.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Righteous&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Decodificador de texto</title>
+</head>
+<body>
+    <header>
+        <img class="logoalura" src="logoalura.png" alt="Logo da Alura">
+        <div >
+            <ul class="itens">
+                <li><a href="https://www.linkedin.com/in/arthur-fernandes-587a941a5/" ><i class="fa-brands fa-linkedin"></i></a></li>
+                <li><a href="https://github.com/Fernandss" ><i class="fa-brands fa-github"></i></a></li>
+            </ul>
+        </div>
+
+    </header>
+
+    <main>
+        <section>
+            <textarea class="text-area" name="" id="" cols="30" rows="10" placeholder=" Digite seu texto" class="texto"></textarea>
+
+            <div>
+                <img src="imagens/Vector@2x.png" class="info" alt=""><h6 class="informacao"> Apenas letras minusculas e sem acento</h6>
+
+            </div>
+
+            <div class="botoes">
+                <button class="btn-encriptar" onclick="btnEncriptar() "> Criptografar</button>
+                <button class="btn-desencriptar" onclick="btnDesencriptar()"> Descriptografar</button>
+
+            </div>
+
+        </section>
+
+        <section>
+            <textarea class="mensagem" name="" id="text" cols="30" rows="10"> </textarea>
+            <button onclick="CopiaCriptografia()"class="btn-copiar" id="copy"> Copiar</button>
+        </section>
+    </main>
+     
+    <footer>
+        <p class="informacoes">&#169; Desenvolvido por Arthur Fernandes | Challenge ONE - Oracle + Alura T4</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
