@@ -1,0 +1,121 @@
+*{
+    background:#E5E5E5 ;
+    font-family: 'Inter', sem serifa;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+header  li {
+    margin: 5px ;
+    padding: 12px;
+}
+
+.logoalura{
+    margin-left: 10px;
+    padding-top: 10px;
+    width: 2% ;
+}
+
+main {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.text-area {
+    border: none;
+    color: #0A3871;
+    margin-top: 50px;
+    text-transform:lowercase;
+    outline: none;
+
+}
+
+::placeholder {color:#0A3871};
+    .text-area:focus {
+        outline:none
+    }
+
+
+
+.mensagem {
+    background: white;
+    background-image: url(/imagens/High\ quality\ products\ 1\ 1.svg) ;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: #0a3871;
+    margin-left: 160px;
+    margin-top: 50px;
+    padding-left: 20px;
+    
+}
+
+.mensagem:focus {
+    outline: none;
+}
+
+.botoes {
+    display: flex;
+    margin-top: 18px;
+}
+
+.btn-desencriptar {
+    background: #d8dfe8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.btn-encriptar {
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color:white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+
+}
+
+.btn-copiar {
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color:#0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: -550px;
+    margin-top: 550px;
+    position: absolute;
+    width: 336px;
+}
+
+.informacao {
+    color: #495057;
+    font-size: 18px;
+    font-weight: 50px;
+    padding-left: 5%;
+}
+
+.itens {
+    list-style: none;
+    display: flex;
+    margin-left: 80%;
+    margin-top: -3%;
+    
+}
+
+.info{
+    width: 1%;
+    position: absolute;
+}
+
+.informacoes{
+    font-size: 15px;
+    text-align: center;
+}
